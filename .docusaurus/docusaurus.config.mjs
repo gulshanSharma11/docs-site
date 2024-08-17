@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Code Garage",
+  "tagline": "CodeGarage Made u Easy",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
@@ -42,9 +42,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "CodeGarage",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "CodeGarage Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -53,6 +53,11 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
+        },
+        {
+          "to": "/docs/Java/Intro",
+          "label": "Java",
+          "position": "left"
         },
         {
           "to": "/blog",

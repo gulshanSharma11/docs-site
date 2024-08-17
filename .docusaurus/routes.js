@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    component: ComponentCreator('/docs', '069'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        component: ComponentCreator('/docs', '13d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            component: ComponentCreator('/docs', '2a4'),
             routes: [
               {
                 path: '/docs/category/tutorial---basics',
@@ -124,6 +124,12 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Java/Intro',
+                component: ComponentCreator('/docs/Java/Intro', '001'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
